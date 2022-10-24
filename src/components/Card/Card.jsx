@@ -20,7 +20,7 @@ export default function Card() {
         <div className="cards">
             {data.map((item, index) => (
             <div className="card" key={index}>
-                <img src={`../../images/${item.img}`} className="card--image" />
+                <img src={`../../images/${item.img}`} alt="img" className="card--image" />
                 <div className="like"><AiFillHeart  onClick={()=>{handleChange(index)}} style={{color: color[index] ? 'red' : '#3d3d3f'}}/></div>
                 <div className="card--stats">
                     <p className="bold">{item.location}</p>
