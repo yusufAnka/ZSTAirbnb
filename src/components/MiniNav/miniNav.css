@@ -1,6 +1,6 @@
-/* .mini_nav {
-    background:rgba(255, 255, 255, 0.969);
-    width: 26rem;
+.mini_nav {
+    background:rgba(10, 6, 6, 0.969);
+    width: 9rem;
     height: 3.5rem;
     border: 1px solid #000;
     display: block;
@@ -9,11 +9,15 @@
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
-    top: 2rem;
+    bottom: 2rem;
     display: flex;
     gap: 0.8rem;
-    border-radius: 3rem;
     backdrop-filter: blur(15px);
+    border: 1px solid #EBEBEB;
+    border-radius: 40px; 
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
   }
   .mini_nav a {
     background: transparent;
@@ -26,4 +30,14 @@
   .mini_nav a.active {
     background: var(--color-bg);
     color: var(--color-white);
-  } */
+  }
+  .map{
+    color: #fff;
+    font-size: small;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .mapIcon{
+    margin-left: 8px;
+  }

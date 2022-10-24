@@ -6,6 +6,22 @@
     align-items: center;
     height: 60px;
     border-bottom: 1px solid #ededed ;
+    background: #fff;
+    /* position: fixed; */
+    display: block;
+    padding: 0.7rem 1.7rem;
+    z-index: 2;
+    position: fixed;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+    top: 4.9rem;
+    display: flex;
+    gap: 0.8rem;
+    backdrop-filter: blur(15px);
+    border: 1px solid #EBEBEB;
+    justify-content: space-between;
+    align-items: center;
   
 }
 .all-icons{
