@@ -1,0 +1,85 @@
+.logo{
+    width: 118px;
+    height: 64px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+}
+.logoreal{
+    height: 40px;
+}
+
+.circular{
+   display: flex;
+   border: 1px solid #EBEBEB;
+   border-radius: 40px; 
+   width: 352px;
+   height: 48px;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0px 10px;
+box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
+}
+.redserach{
+    display: grid;
+    place-items: center;
+    background-color: #ED3B5A;
+    border-radius: 50%;
+    color: white;
+    font-weight: 700;
+    width: 40px;
+    height: 40px;
+}
+.re{
+    display: flex;
+    width: 124px;
+    align-items: center;
+    justify-content: space-between;
+}
+.b{
+    border-right: 0.5px solid gray;
+    justify-content: center;
+    padding-right: 14px;
+}
+.b p{
+    font-weight: bold;
+}
+.re p{
+    color: #b8b6b6;
+}
+
+.become{
+    display: flex;
+    width: 235px;
+    justify-content: space-between;
+    align-items: center;
+}
+.cc{
+    font-weight: 600;
+    font-size: 14px;
+}
+.main{
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+    border-bottom:  1px solid #EBEBEB;
+    justify-content: space-between;
+    /* margin: 0rem 3rem; */
+}
+.ee{
+    font-size: 25px;
+}
+.ff{
+    display: flex;
+    width: 77px;
+    height: 48PX;
+    justify-content: space-around;
+    align-items: center;
+  
+        border: 0.5px solid #EBEBEB;
+        border-radius: 40PX;
+}
+.gg{
+    color: #b7b3b3;
+    font-size: 30px;
+}

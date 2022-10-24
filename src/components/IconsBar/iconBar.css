@@ -1,0 +1,54 @@
+.main-icons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 2px 20px;
+    align-items: center;
+    height: 60px;
+    border-bottom: 1px solid #ededed ;
+  
+}
+.all-icons{
+    margin: 1rem 3rem; 
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 2rem 0rem;
+}
+.icon-name{
+    font-size: small;
+    color: rgb(101, 99, 99);
+    font-weight: bold;
+}
+.icon{
+    font-weight: bolder;
+    font-size: xx-large;
+    color: rgb(101, 99, 99);
+}
+.arrow-right{
+    margin-top: 20px;
+    color: black;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.icon:hover{
+    color: black;
+}
+.icon-name:hover{
+    color: black;
+}
+.all-icon:hover{
+    color: black;
+}
+.tt{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    border: 1px solid #ededed;
+    width: 150px;
+    height: 40px;
+}
+.tt:hover{
+border: 1px solid black;
+}
