@@ -5,11 +5,11 @@
     display: flex;
     align-items: center;
 }
-.logoreal{
+.logoImg{
     height: 40px;
 }
 
-.circular{
+.circularNav{
    display: flex;
    border: 1px solid #EBEBEB;
    border-radius: 40px; 
@@ -20,7 +20,7 @@
    padding: 0px 10px;
    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
 }
-.redserach{
+.search{
     display: grid;
     place-items: center;
     background-color: #ED3B5A;
@@ -36,7 +36,7 @@
     align-items: center;
     justify-content: space-between;
 }
-.b{
+.anyWhere{
     border-right: 0.5px solid gray;
     justify-content: center;
     padding-right: 14px;

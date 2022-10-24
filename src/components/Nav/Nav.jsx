@@ -11,11 +11,11 @@ const Navbar = () => {
   return (
      <div className="main">
         <div className="logo">
-           <img src="/images/airbnb-logo.png" alt="logo" className="logoreal" />
+           <img src="/images/airbnb-logo.png" alt="logo" className="logoImg" />
         </div>
 
-        <div className="circular">
-           <div className="b">
+        <div className="circularNav">
+           <div className="anyWhere">
               <p>Any where</p>
            </div>
            <div className="b">
@@ -23,7 +23,7 @@ const Navbar = () => {
            </div>
            <div className="re">
               <p>Any guests</p>
-              <div className="redserach">
+              <div className="search">
                  <BiSearchAlt2 className="ee" />
               </div>
            </div>

@@ -1,6 +1,6 @@
 .mini_nav {
-    background:rgba(10, 6, 6, 0.969);
-    width: 9rem;
+    background:rgba(21, 21, 21, 0.969);
+    width: 10rem;
     height: 3.5rem;
     border: 1px solid #000;
     display: block;
@@ -13,7 +13,6 @@
     display: flex;
     gap: 0.8rem;
     backdrop-filter: blur(15px);
-    border: 1px solid #EBEBEB;
     border-radius: 40px; 
     justify-content: space-between;
     align-items: center;
@@ -33,11 +32,12 @@
   }
   .map{
     color: #fff;
-    font-size: small;
+    font-size: 12px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    margin: 0px;
+    padding: 0px;
   }
   .mapIcon{
-    margin-left: 8px;
+    margin-left: 6px;
   }

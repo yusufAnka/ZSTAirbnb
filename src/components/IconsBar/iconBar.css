@@ -1,15 +1,15 @@
 .main-icons{
     display: flex;
     justify-content: space-between;
-    margin-top: 10px;
-    padding: 2px 20px;
+    /* margin-top: 5px; */
+    /* padding: 20px 20px; */
     align-items: center;
-    height: 60px;
+    height: 80px;
     border-bottom: 1px solid #ededed ;
     background: #fff;
     /* position: fixed; */
     display: block;
-    padding: 0.7rem 1.7rem;
+    padding: 2rem 4rem;
     z-index: 2;
     position: fixed;
     left: 50%;
@@ -22,14 +22,15 @@
     border: 1px solid #EBEBEB;
     justify-content: space-between;
     align-items: center;
+    font-size: small;
   
 }
 .all-icons{
-    margin: 1rem 3rem; 
+    /* margin: 0.1rem 1rem;  */
     display: flex;
     justify-content: space-around;
     width: 100%;
-    padding: 2rem 0rem;
+    /* padding: 1rem 0rem; */
 }
 .icon-name{
     font-size: small;
